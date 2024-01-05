@@ -157,6 +157,7 @@ function refreshDemoInfo(selectedId)
             // The .html command was sourced from tutorialsteacher.com to permit overwriting
             //of the html text elments rather than creating a long continuous list.
             d3.select("#sample-metadata").html(demoStr);
+            break;
         }
     }
 }
