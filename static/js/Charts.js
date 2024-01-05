@@ -28,7 +28,6 @@ function loadIds()
         var option = document.createElement("option");
         option.text = ids[i];
         selDataset.add(option);
-        break;
     }   
 }
 
